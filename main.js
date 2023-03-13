@@ -6,7 +6,7 @@ const products = [
   category: "wedding",
   instock: 1000,
   decription: "choclately goodness",
-  imgSrc: "../images/weddingcake1.jpg",
+  imgSrc: "../images/weddingcake1.webp",
 },
 
 {
@@ -16,7 +16,7 @@ const products = [
   category: "wedding",
   instock: 1000,
   decription: "choclately goodness",
-  imgSrc: "../images/weddingcake2.jpg",
+  imgSrc: "../images/weddingcake2.webp",
 },
 
 {
@@ -26,7 +26,7 @@ const products = [
   category: "wedding",
   instock: 1000,
   decription: "choclately goodness",
-  imgSrc: "../images/weddingcake3.jpg",
+  imgSrc: "../images/weddingcake3.webp",
 },
 
 {
@@ -36,7 +36,7 @@ const products = [
   category: "wedding",
   instock: 1000,
   decription: "choclately goodness",
-  imgSrc: "../images/weddingcake4.jpg",
+  imgSrc: "../images/weddingcake4.webp",
   
 },
 
@@ -47,7 +47,7 @@ const products = [
   category: "birthday",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/bcake1.jpg",
+  imgSrc: "../images/bcake1.webp",
 },
 
 {
@@ -57,7 +57,7 @@ const products = [
   category: "birthday",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/bcake2.jpg",
+  imgSrc: "../images/bcake2.webp",
 },
 
 {
@@ -67,7 +67,7 @@ const products = [
   category: "birthday",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/bcake3.jpg",
+  imgSrc: "../images/bcake3.webp",
 },
 
 {
@@ -77,7 +77,7 @@ const products = [
   category: "birthday",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/bcake4.jpg",
+  imgSrc: "../images/bcake4.webp",
 },
 
 
@@ -89,7 +89,7 @@ const products = [
   category: "cupcakes",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/cupcake1.jpg",
+  imgSrc: "../images/cupcake1.webp",
 },
 
 {
@@ -99,7 +99,7 @@ const products = [
   category: "cupcakes",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/cupcake2.jpg",
+  imgSrc: "../images/cupcake2.webp",
 },
 
 {
@@ -109,7 +109,7 @@ const products = [
   category: "cupcakes",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/cupcake3.jpg",
+  imgSrc: "../images/cupcake3.webp",
 },
 
 {
@@ -119,7 +119,7 @@ const products = [
   category: "cupcakes",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/cupcake4.jpg",
+  imgSrc: "../images/cupcake4.webp",
 },
 
 {
@@ -129,7 +129,7 @@ const products = [
   category: "cupcakes",
   instock: 300,
   decription: "choclately goodness",
-  imgSrc: "../images/cupcake5.jpg",
+  imgSrc: "../images/cupcake5.webp",
 },
 
 ];
