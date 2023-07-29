@@ -1,168 +1,165 @@
 const products = [
   {
-  id: 0,
-  name: "the forever after",
-  price: 5.99,
-  category: "wedding",
-  instock: 1000,
-  decription: "choclately goodness",
-  imgSrc: "../images/weddingcake1.webp",
-},
+    id: 0,
+    name: "the forever after",
+    price: 5.99,
+    category: "wedding",
+    instock: 1000,
+    decription: "choclately goodness",
+    imgSrc: "../images/weddingcake1.webp",
+  },
 
-{
-  id: 1,
-  name: "the one",
-  price: 13.99,
-  category: "wedding",
-  instock: 1000,
-  decription: "choclately goodness",
-  imgSrc: "../images/weddingcake2.webp",
-},
+  {
+    id: 1,
+    name: "the one",
+    price: 13.99,
+    category: "wedding",
+    instock: 1000,
+    decription: "choclately goodness",
+    imgSrc: "../images/weddingcake2.webp",
+  },
 
-{
-  id: 2,
-  name: "Tiered delight",
-  price: 13.99,
-  category: "wedding",
-  instock: 1000,
-  decription: "choclately goodness",
-  imgSrc: "../images/weddingcake3.webp",
-},
+  {
+    id: 2,
+    name: "Tiered delight",
+    price: 13.99,
+    category: "wedding",
+    instock: 1000,
+    decription: "choclately goodness",
+    imgSrc: "../images/weddingcake3.webp",
+  },
 
-{
-  id: 3,
-  name: "Classic",
-  price: 13.99,
-  category: "wedding",
-  instock: 1000,
-  decription: "choclately goodness",
-  imgSrc: "../images/weddingcake4.webp",
-  
-},
+  {
+    id: 3,
+    name: "Classic",
+    price: 13.99,
+    category: "wedding",
+    instock: 1000,
+    decription: "choclately goodness",
+    imgSrc: "../images/weddingcake4.webp",
+  },
 
-{
-  id: 4,
-  name: "oreo dream",
-  price: 15.99,
-  category: "birthday",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/bcake1.webp",
-},
+  {
+    id: 4,
+    name: "oreo dream",
+    price: 15.99,
+    category: "birthday",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/bcake1.webp",
+  },
 
-{
-  id: 5,
-  name: "ice-cream cake",
-  price: 15.99,
-  category: "birthday",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/bcake2.webp",
-},
+  {
+    id: 5,
+    name: "ice-cream cake",
+    price: 15.99,
+    category: "birthday",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/bcake2.webp",
+  },
 
-{
-  id: 6,
-  name: "fruity",
-  price: 15.99,
-  category: "birthday",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/bcake3.webp",
-},
+  {
+    id: 6,
+    name: "fruity",
+    price: 15.99,
+    category: "birthday",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/bcake3.webp",
+  },
 
-{
-  id: 7,
-  name: "chocoholic",
-  price: 7.99,
-  category: "birthday",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/bcake4.webp",
-},
+  {
+    id: 7,
+    name: "chocoholic",
+    price: 7.99,
+    category: "birthday",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/bcake4.webp",
+  },
 
+  {
+    id: 8,
+    name: "caramel cupcakes",
+    price: 1.99,
+    category: "cupcakes",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/cupcake1.webp",
+  },
 
+  {
+    id: 9,
+    name: "carrot cupcakes",
+    price: 1.99,
+    category: "cupcakes",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/cupcake2.webp",
+  },
 
-{
-  id: 8,
-  name: "caramel cupcakes",
-  price: 1.99,
-  category: "cupcakes",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/cupcake1.webp",
-},
+  {
+    id: 10,
+    name: "blue swirls",
+    price: 1.99,
+    category: "cupcakes",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/cupcake3.webp",
+  },
 
-{
-  id: 9,
-  name: "carrot cupcakes",
-  price: 1.99,
-  category: "cupcakes",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/cupcake2.webp",
-},
+  {
+    id: 11,
+    name: "cherry on top",
+    price: 2.99,
+    category: "cupcakes",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/cupcake4.webp",
+  },
 
-{
-  id: 10,
-  name: "blue swirls",
-  price: 1.99,
-  category: "cupcakes",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/cupcake3.webp",
-},
-
-{
-  id: 11,
-  name: "cherry on top",
-  price: 2.99,
-  category: "cupcakes",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/cupcake4.webp",
-},
-
-{
-  id: 12,
-  name: "lovers muffins",
-  price: 2.99,
-  category: "cupcakes",
-  instock: 300,
-  decription: "choclately goodness",
-  imgSrc: "../images/cupcake5.webp",
-},
-
+  {
+    id: 12,
+    name: "lovers muffins",
+    price: 2.99,
+    category: "cupcakes",
+    instock: 300,
+    decription: "choclately goodness",
+    imgSrc: "../images/cupcake5.webp",
+  },
 ];
 
-const reviews = [{
-  identity: 1,
-  img: "../images/person1.jpg",
-  text: "I needed cakes for my daughters birthday and found simply cakes. They were amazing I can't recommend them any higher"
-}, 
+const reviews = [
+  {
+    identity: 1,
+    img: "../images/pperson1.webp",
+    text: "I needed cakes for my daughters birthday and found simply cakes. They were amazing I can't recommend them any higher",
+  },
 
-{
-  identity: 2,
-  img: "../images/person2.jpg",
-  text: "Put simply they were the best cakes I ever had"
-}, 
+  {
+    identity: 2,
+    img: "../images/pperson2.webp",
+    text: "Put simply they were the best cakes I ever had",
+  },
 
-{
-  identity: 3,
-  img: "../images/person3.jpg",
-  text: "Just for cakes attended to my every need. Quality cakes. Quality service"
-}, 
+  {
+    identity: 3,
+    img: "../images/pperson3.webp",
+    text: "Just for cakes attended to my every need. Quality cakes. Quality service",
+  },
 
-{
-  identity: 4,
-  img: "../images/person4.jpg",
-  text: "My wedding was made perfect by the spendid cake I ordered. I have continued ordering because I love them so much"
-}, 
+  {
+    identity: 4,
+    img: "../images/pperson4.webp",
+    text: "My wedding was made perfect by the spendid cake I ordered. I have continued ordering because I love them so much",
+  },
 
-{
-  identity: 5,
-  img: "../images/person5.webp",
-  text: "To say I was dissapointed was an understatement. They had no cookies!!!"
-}, 
+  {
+    identity: 5,
+    img: "../images/pperson5.webp",
+    text: "To say I was dissapointed was an understatement. They had no cookies!!!",
+  },
 ];
 
 //select review elements
@@ -179,12 +176,11 @@ let currentItem = 0;
 
 //load initial item for reviews
 
-window.addEventListener("DOMContentLoaded", function(){
-  
-showPerson(currentItem);
-})
+window.addEventListener("DOMContentLoaded", function () {
+  showPerson(currentItem);
+});
 
-function showPerson(person){
+function showPerson(person) {
   const item = reviews[person];
   img.src = item.img;
   text.textContent = item.text;
@@ -192,30 +188,26 @@ function showPerson(person){
 
 //show next review
 
-nextBtn.addEventListener("click", function(){
+nextBtn.addEventListener("click", function () {
   currentItem++;
-  if(currentItem > reviews.length - 1){
+  if (currentItem > reviews.length - 1) {
     currentItem = 0;
   }
   showPerson(currentItem);
-})
+});
 
 // show previous review
 
-prevBtn.addEventListener("click", function(){
+prevBtn.addEventListener("click", function () {
   currentItem--;
-  if(currentItem < 0) {
-    currentItem = reviews.length - 1;}
-    
-  
+  if (currentItem < 0) {
+    currentItem = reviews.length - 1;
+  }
+
   showPerson(currentItem);
 });
 
-
-
-
 //select elements
-
 
 const shopItems = document.querySelector(".shop-items-center");
 const cartItems = document.querySelector(".cart-items");
@@ -232,42 +224,27 @@ const asideClose = document.querySelector(".close-btn-1");
 const openFilter = document.querySelector(".open-filter");
 const filterBtn = document.querySelector(".filter-btns");
 
-openFilter.addEventListener("click", function(){
-filterBtn.classList.toggle("show-filter-btns");
-})
+openFilter.addEventListener("click", function () {
+  filterBtn.classList.toggle("show-filter-btns");
+});
 
-
-
-asideClose.addEventListener("click", function(){
+asideClose.addEventListener("click", function () {
   aside.classList.toggle("show-aside");
-  })
-  
-  navBtn.addEventListener("click", function(){
-      aside.classList.toggle("show-aside");
-      })
+});
 
-      console.log(asideClose)
+navBtn.addEventListener("click", function () {
+  aside.classList.toggle("show-aside");
+});
 
+console.log(asideClose);
 
+window.addEventListener("DOMContentLoaded", function () {
+  displayAll(products);
+});
 
-
-
-
-
-
-
-
-
-
-
-window.addEventListener("DOMContentLoaded", function(){
-  displayAll(products)});
-  
-function displayAll(menuItems){
-    let displayProducts = menuItems.map(function(item) {
-
-      
-        return `
+function displayAll(menuItems) {
+  let displayProducts = menuItems.map(function (item) {
+    return `
 
         
           
@@ -292,154 +269,115 @@ function displayAll(menuItems){
         </div>
       </article>
              `;
-             
-             
+  });
+
+  displayProducts = displayProducts.join("");
+  shopItems.innerHTML = displayProducts;
+
+  function popUp() {
+    const pop = document.getElementById("popup");
+    pop.classList.toggle("active");
+  }
+
+  const clickBtn = document.querySelectorAll(".add-btn");
+  const xBtn = document.querySelector(".x");
+
+  xBtn.addEventListener("click", function () {
+    const filterBtns = document.querySelectorAll("filter-btn");
+    popUp();
+  });
+
+  clickBtn.forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      let open = e.currentTarget;
+      open = popUp();
+    });
+  });
+
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      const category = e.currentTarget.dataset.id;
+      const menuCategory = products.filter(function (menuItem) {
+        if (menuItem.category === category) {
+          return menuItem;
+        }
       });
-      
-      displayProducts = displayProducts.join("");
-      shopItems.innerHTML = displayProducts;
-
-      
-
-      function popUp(){
-        const pop = document.getElementById("popup");
-        pop.classList.toggle("active");
-
-        
-
-      
-          
-        };
-        
-
-const clickBtn = document.querySelectorAll(".add-btn");
-const xBtn = document.querySelector(".x");
-
-
-xBtn.addEventListener("click", function(){
-  const filterBtns = document.querySelectorAll("filter-btn");
-  popUp();
-})
-
-clickBtn.forEach(function(btn){
-  btn.addEventListener("click", function(e){
-    let open = e.currentTarget;
-    open = popUp();
-  })
-  
-})
-
-
-filterBtns.forEach(function(btn){
-  btn.addEventListener("click", function(e){
-    const category = e.currentTarget.dataset.id;
-    const menuCategory = products.filter(function(menuItem){
-
-      if(menuItem.category === category){
-        return menuItem;
+      if (category === "all") {
+        displayAll(products);
+      } else {
+        displayAll(menuCategory);
       }
-
     });
-    if (category==="all"){
-      displayAll(products);
-    }
-    else{displayAll(menuCategory);
-    }
-  })
+  });
+}
 
-  
-  
-})
+const filterBtns = document.querySelectorAll(".filter-btn");
 
-
-
-
-};
-      
-
-
-const filterBtns = document.querySelectorAll(".filter-btn")
-
-filterBtns.forEach(function(btn){
-  btn.addEventListener("click", function(e){
+filterBtns.forEach(function (btn) {
+  btn.addEventListener("click", function (e) {
     const category = e.currentTarget.dataset.id;
-    const menuCategory = products.filter(function(menuItem){
-
-      if(menuItem.category === category){
+    const menuCategory = products.filter(function (menuItem) {
+      if (menuItem.category === category) {
         return menuItem;
       }
     });
-    
-    if (category==="all"){
+
+    if (category === "all") {
       displayAll(products);
+    } else {
+      displayAll(menuCategory);
     }
-    else{displayAll(menuCategory);
-    }
-  })});      
+  });
+});
 
-       
-        
+//cart array
+let cart = [];
 
-    
+//add to cart function
 
-    //cart array
-    let cart = [];
-
-
-    //add to cart function
-
-function addToCart(id){
-
+function addToCart(id) {
   //check if product already in cart
 
-  if(cart.some((newItem) => newItem.id===id)){
+  if (cart.some((newItem) => newItem.id === id)) {
     changeNumberOfUnits("plus", id);
-    
-    
-   }
-
-   else{
+  } else {
     const newItem = products.find((item) => item.id === id);
 
     cart.push({
       ...newItem,
       numberOfUnits: 1,
     });
-   }
-   updateCartTotal();
+  }
+  updateCartTotal();
 }
 
-function updateCartTotal(){
+function updateCartTotal() {
   renderCartItems();
   renderSubTotal();
-  
 }
 
 //render subtotal
 
-function renderSubTotal(){
-  let totalPrice = 0, totalItems = 0;
+function renderSubTotal() {
+  let totalPrice = 0,
+    totalItems = 0;
 
   cart.forEach((item) => {
     totalPrice += item.price * item.numberOfUnits;
     totalItems += item.numberOfUnits;
-  })
-subTotal.innerHTML = 
-
-`
+  });
+  subTotal.innerHTML = `
 Subtotal (${totalItems} items): £${totalPrice.toFixed(2)}
 `;
-totalCartItems.innerHTML = totalItems;
-
-
+  totalCartItems.innerHTML = totalItems;
 }
 
 //render cart items
 
-function renderCartItems(){
+function renderCartItems() {
   cartItems.innerHTML = "";
-cart.forEach((item) => {
- cartItems.innerHTML += `
+  cart.forEach((item) => {
+    cartItems.innerHTML += `
  
  
           
@@ -465,60 +403,51 @@ cart.forEach((item) => {
         
       </article>
       <!-- end of single item-->`;
-
-});
+  });
 }
 
 //add alert
 
-
-
 //remove items from cart
 
-function removeItemFromCart(id){
-  cart = cart.filter( (item) => item.id !== id)
+function removeItemFromCart(id) {
+  cart = cart.filter((item) => item.id !== id);
 
   updateCartTotal();
+}
 
-  }
+//changenumber of units
 
+function changeNumberOfUnits(action, id) {
+  cart = cart.map((item) => {
+    let numberOfUnits = item.numberOfUnits;
 
-//changenumber of units 
-
-function changeNumberOfUnits(action, id){
-cart = cart.map((item) => {
-
-  let numberOfUnits = item.numberOfUnits;
-
-  if(item.id === id){
-    if(action === "minus" && numberOfUnits > 1){
-      numberOfUnits --;
+    if (item.id === id) {
+      if (action === "minus" && numberOfUnits > 1) {
+        numberOfUnits--;
+      } else if (action === "plus" && numberOfUnits < item.instock) {
+        numberOfUnits++;
+      }
     }
-    else if(action==="plus" && numberOfUnits < item.instock) {
-      numberOfUnits ++;
-    }
-  }
-  return {
-    ...item,
-    numberOfUnits,
-  };
-
-});
-updateCartTotal();
+    return {
+      ...item,
+      numberOfUnits,
+    };
+  });
+  updateCartTotal();
 }
 
 //open close side bar
 
 const openBtn = document.querySelector(".open-btn");
 const closeBtn = document.querySelector(".close-btn");
-let sidebar = document.querySelector(".cart")
+let sidebar = document.querySelector(".cart");
 
 openBtn.addEventListener("click", function () {
-sidebar.classList.add("show-sidebar");
+  sidebar.classList.add("show-sidebar");
 });
 closeBtn.addEventListener("click", function () {
-sidebar.classList.remove("show-sidebar");
+  sidebar.classList.remove("show-sidebar");
 });
-
 
 //alert
